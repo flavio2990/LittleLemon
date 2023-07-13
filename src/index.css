@@ -1,13 +1,448 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.navBar {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr 0.5fr);
+  height: 50px;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo {
+  height: 100%;
+}
+
+.menu {
+  font-family: 'karla';
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu li {
+  font-family: 'karla';
+  margin-left: 30px;
+  font-weight: bold;
+  margin-left: 48px;
+  list-style: none;
+
+}
+
+.header {
+  font-family: 'karla';
+  background-color: #495E57;
+  height: 280px;
+  width: 100%;
+  position: relative;
+}
+
+.call-to-action {
+  font-family: 'karla';
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  flex-grow: 1;
+  margin-left: 240px;
+  margin-top: -100px;
+}
+
+.hero-text h1 {
+  margin-bottom: -20px;
+  font-size: 20pt;
+  color: #F4CE14;
+}
+
+.hero-text h2 {
+  font-size: 1rem;
+  color: #EDEFEE;
+}
+
+.hero-text p {
+  color: #EDEFEE;
+}
+
+.restauranfood {
+  height: 320px;
+  width: 280px;
+  border-radius: 8px;
+  margin-right: 230px;
+  margin-top: 30px;
+}
+
+.action-button {
+  margin-top: -50px;
+  padding: 10px 20px;
+  background-color: #F4CE14;
+  color: #333333;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.carousel-img img {
+  width: 220px;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.special-card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 190px 0;
+}
+
+.special-card-container .special-card {
+  width: 100%;
+  height: 750px;
+}
+
+.special-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.special-name {
+  font-size: 16pt;
+  color: #333333;
+}
+
+.special-price {
+  font-size: 18pt;
+  color: #EE9972;
+}
+
+.card-container {
+  background-color: #EDEFEE;
+  width: 220px;
+  height: 400px;
+  /* height: fit-content; */
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+.special-content {
+  position: relative;
+  padding-bottom: 50px; 
+}
+
+.Button-delivery {
+  position: relative;
+  bottom: 0;
+  transform: translateX(-50%);
+  font-family: 'Karla';
+  font-weight: bold;
+  text-decoration: none;
+
+}
+.Link {
+  color: black; 
+  text-decoration: none; 
+}
+
+.special-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 27px;
+  margin: 30px;
+  margin-right: 30px;
+}
+
+.special-header h1 {
+  font-family: 'karla';
+  font-size: 40pt;
+}
+.message {
+  background-color: #cf5d5d;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+
+.footer {
+  color: #333333;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  margin-right: 300px;
+}
+
+.footer menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.footer li {
+  font-family: 'karla';
+  font-weight: bold;
+  margin: 20px;
+  list-style: none;
+
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20pt;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links a {
+  color: #333333;
+  margin: 10px 0;
+  text-decoration: none;
+
+}
+
+.img-footer img {
+  width: 150px;
+}
+
+.contact li {
+  margin-bottom: 10px;
+}
+
+.contact a {
+  margin-top: 10px;
+
+}
+
+.testimonials h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.opinion-cards {
+  display: flex;
+  flex: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.testimonial-rating {
+  position: relative;
+  border-radius: 10px 10px 0 0;
+  height: 20px;
+  background-color: darkgray;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.testimonial-rating img {
+  width: auto;
+  height: 20px;
+  object-fit: contain;
+}
+
+.testimonial-details img {
+  width: 80px;
+  height: 80px;
+  max-width: 100%;
+  transform: translateY(70%);
+  height: 25%;
+  margin-right: 130px;
+  border: 1px solid darkgray;
+}
+
+.testimonial-details p {
+  font-family: 'karla';
+  color: #333333;
+  font-size: 16px;
+}
+
+.testimonial-name {
+  transform: translateY(-30%);
+  font-family: 'karla';
+  color: black;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-left: 90px;
+}
+
+.testimonial .testimonial-details {
+  font-family: 'karla';
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.testimonials-cards {
+  width: 200px;
+  height: 200px;
+  background-color: #EDEFEE;
+  align-items: center;
+}
+.testimonials-cards img {
+  width: 80px;
+  height: 80px;
+  /* object-fit: cover; */
+}
+
+.little-lemon {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.little-lemon div:first-child {
+  flex: 1;
+}
+
+.little-lemon div:first-child h1 {
+  font-family: 'karla';
+  color: #F4CE14;
+}
+
+.little-lemon div:first-child p {
+  font-family: 'karla';
+  color: #333333;
+}
+
+
+.little-lemon div:last-child {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chefsa,
+.chefsb {
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 70%;
+  height: auto;
+}
+
+.reservetable {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'karla';
+  font-size: 20px;
+}
+
+.restaurant {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.restaurantable {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px 10px 0 0;
+}
+
+.formulary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.action-confirmed {
+  font-family: 'karla';
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #F4CE14;
+  color: #333333;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+}
+.action-confirmed2 {
+  padding: 10px 20px;
+  background-color: #495E57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  height: 40px;
+}
+.action-confirmed3 {
+  font-family: 'karla';
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #F4CE14;
+  color: #495E57;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+}
+.res-time {
+  padding: 10px 20px;
+  background-color: #315a6b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 150px;
+  height: 40px;
+}
+
+.input-fonts{
+  display: flex;
+  font-family: 'karla';
+  font-size: 18px;
+justify-content: space-evenly;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
 }
