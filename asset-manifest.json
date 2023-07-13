@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/restolittlelemonweb/static/css/main.5805efbb.css",
-    "main.js": "/restolittlelemonweb/static/js/main.b81d43c8.js",
-    "static/js/787.99ffa8e0.chunk.js": "/restolittlelemonweb/static/js/787.99ffa8e0.chunk.js",
-    "static/media/Mario and Adrian A.jpg": "/restolittlelemonweb/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
-    "static/media/Mario and Adrian b.jpg": "/restolittlelemonweb/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
-    "static/media/Salad.jpg": "/restolittlelemonweb/static/media/Salad.bed423a1fab5b210e347.jpg",
-    "static/media/restauranfood.jpg": "/restolittlelemonweb/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
-    "static/media/bruschetta.jpeg": "/restolittlelemonweb/static/media/bruschetta.b0415dd9cd625aa27e44.jpeg",
-    "static/media/menu.webp": "/restolittlelemonweb/static/media/menu.9b7e092be47f16ae049f.webp",
-    "static/media/restaurant.jpg": "/restolittlelemonweb/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
-    "static/media/small_logo.png": "/restolittlelemonweb/static/media/small_logo.2c859235d6c57bb54176.png",
-    "static/media/Star.png": "/restolittlelemonweb/static/media/Star.5063dfd0f98b5b927492.png",
-    "static/media/saramichel.jpg": "/restolittlelemonweb/static/media/saramichel.72f30a0f727c5ea9f2d6.jpg",
-    "static/media/casey.webp": "/restolittlelemonweb/static/media/casey.8a81a565f9edb9674921.webp",
-    "static/media/nav-logo.png": "/restolittlelemonweb/static/media/nav-logo.370f832fad423c516d56.png",
-    "static/media/Micheal.avif": "/restolittlelemonweb/static/media/Micheal.7e97c0ac71af8074794b.avif",
-    "index.html": "/restolittlelemonweb/index.html",
-    "main.5805efbb.css.map": "/restolittlelemonweb/static/css/main.5805efbb.css.map",
-    "main.b81d43c8.js.map": "/restolittlelemonweb/static/js/main.b81d43c8.js.map",
-    "787.99ffa8e0.chunk.js.map": "/restolittlelemonweb/static/js/787.99ffa8e0.chunk.js.map"
+    "main.css": "/littlelemon/static/css/main.5805efbb.css",
+    "main.js": "/littlelemon/static/js/main.63a72971.js",
+    "static/js/787.99ffa8e0.chunk.js": "/littlelemon/static/js/787.99ffa8e0.chunk.js",
+    "static/media/Mario and Adrian A.jpg": "/littlelemon/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
+    "static/media/Mario and Adrian b.jpg": "/littlelemon/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
+    "static/media/Salad.jpg": "/littlelemon/static/media/Salad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/littlelemon/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/bruschetta.jpeg": "/littlelemon/static/media/bruschetta.b0415dd9cd625aa27e44.jpeg",
+    "static/media/menu.webp": "/littlelemon/static/media/menu.9b7e092be47f16ae049f.webp",
+    "static/media/restaurant.jpg": "/littlelemon/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/small_logo.png": "/littlelemon/static/media/small_logo.2c859235d6c57bb54176.png",
+    "static/media/Star.png": "/littlelemon/static/media/Star.5063dfd0f98b5b927492.png",
+    "static/media/saramichel.jpg": "/littlelemon/static/media/saramichel.72f30a0f727c5ea9f2d6.jpg",
+    "static/media/casey.webp": "/littlelemon/static/media/casey.8a81a565f9edb9674921.webp",
+    "static/media/nav-logo.png": "/littlelemon/static/media/nav-logo.370f832fad423c516d56.png",
+    "static/media/Micheal.avif": "/littlelemon/static/media/Micheal.7e97c0ac71af8074794b.avif",
+    "index.html": "/littlelemon/index.html",
+    "main.5805efbb.css.map": "/littlelemon/static/css/main.5805efbb.css.map",
+    "main.63a72971.js.map": "/littlelemon/static/js/main.63a72971.js.map",
+    "787.99ffa8e0.chunk.js.map": "/littlelemon/static/js/787.99ffa8e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5805efbb.css",
-    "static/js/main.b81d43c8.js"
+    "static/js/main.63a72971.js"
   ]
 }
